@@ -31,9 +31,10 @@ const Navbar = () => {
       {
         isOpen && (
           <div className='md:hidden flex flex-col items-center space-y-4 mt-4 text-lg  text-[#63523f] font-light'>
-            <a href="#" onClick={() => setIsOpen(false)}>Home</a>
-            <a href="#projects" onClick={() => setIsOpen(false)}>Work</a>
-            <a href="#services" onClick={() => setIsOpen(false)}>Services</a>
+            <a href="#" onClick={() => setIsOpen(false)}>Shop</a>
+            <a href="#projects" onClick={() => setIsOpen(false)}>About</a>
+            <a href="#services" onClick={() => setIsOpen(false)}>Locations</a>
+            <a href="#services" onClick={() => setIsOpen(false)}>Contact</a>
             {/* <div>
               <FaLinkedin className='w-10 h-10'></FaLinkedin>
               <FaEnvelope className='w-10 h-10'></FaEnvelope>
@@ -41,7 +42,7 @@ const Navbar = () => {
             <div className="p-[1.5px]">
               <a
                 href="#tbd"
-                className="flex items-center justify-center gap-2 rounded-md bg-[#63523f] px-6 py-3 text-[#d3b998] min-h-[44px] font-light"
+                className="flex items-center justify-center gap-2 rounded-md bg-[#3f352b] px-6 py-3 text-[#d3b998] min-h-[44px] font-light"
               >
                 Order Online
               </a>

@@ -3,7 +3,7 @@ import React from 'react'
 const Locations = () => {
   return (
     <div className='bg-[#262324] px-5'>
-        <div className='py-20'>
+        <div className='md:py-20'>
             <h1 className='text-4xl flex justify-center text-[#E2C8AF] font-light py-5'>Locations</h1>
             <div className='flex flex-col md:flex-row md:justify-between md:px-50 gap-5 text-[#E2C8AF]'>
                 <div>
